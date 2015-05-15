@@ -140,9 +140,9 @@ return [
         /*
          * Application Service Providers...
          */
-        'App\Providers\AppServiceProvider',
-        'App\Providers\EventServiceProvider',
-        'App\Providers\RouteServiceProvider',
+        'Hangout\Providers\AppServiceProvider',
+        'Hangout\Providers\EventServiceProvider',
+        'Hangout\Providers\RouteServiceProvider',
 
     ],
 

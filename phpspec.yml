@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: Hangout
+        psr4_prefix: Hangout
         src_path: app

@@ -1,4 +1,4 @@
-<?php namespace App\Jobs;
+<?php namespace Hangout\Jobs;
 
 use Illuminate\Bus\Queueable;
 

@@ -1,8 +1,8 @@
-<?php namespace App\Http\Controllers\Auth;
+<?php namespace Hangout\Http\Controllers\Auth;
 
-use App\User;
+use Hangout\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Hangout\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller

@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace Hangout\Events;
 
 abstract class Event
 {
