@@ -5,6 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateUsersTable extends Migration
 {
+    use \Illuminate\Foundation\Testing\Migrations;
     /**
      * Run the migrations.
      *

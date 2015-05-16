@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define('App\User', function ($faker) {
+$factory->define('Hangout\User', function ($faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->email,
