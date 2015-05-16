@@ -12,9 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return redirect('/hangout');
 });
 
 Route::controllers([
     'auth'  =>  'Auth\AuthController',
 ]);
+
+Route::resource('hangout', 'HangoutController');
+Route::resource('suggest', 'SuggestionController');
